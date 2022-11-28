@@ -189,7 +189,7 @@ class _MyHomePageState extends State<MyHomePage>
                                     emojiUniCode:   "\u{1F610}",
                                     title: "Calm",
                                     clr:Colors.brown ),
-                               // CustomCheckInbtn(),
+                                CustomCheckInbtn(),
 
 
                               ],
@@ -236,7 +236,7 @@ class _MyHomePageState extends State<MyHomePage>
                                     emojiUniCode:   "\u{2764}",
                                     title: "Accepting",
                                     clr:Colors.greenAccent ),
-                               // CustomCheckInbtn(),
+                               CustomCheckInbtn(),
 
 
                               ],
@@ -284,6 +284,7 @@ class _MyHomePageState extends State<MyHomePage>
                                     emojiUniCode:   "\u{1F574}",
                                     title: "Genuine",
                                     clr:Colors.limeAccent ),
+                                CustomCheckInbtn()
 
 
 
@@ -439,7 +440,7 @@ class _CustomWidgetState extends State<CustomWidget> {
                     onTap: () {
                       _showRatingAppDialog();
 
-                      //print("sjhdjskd");
+                    
                     },
                     child: Text(
                       widget.emojiUniCode,
